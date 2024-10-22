@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Oriya:wght@400..700&display=swap');
+
+
+.encabezado{
+    background-image:linear-gradient(#CBD7D1,#686868);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 550vh;
+    z-index: -1;
+}
+.encabezado__titulo{
+    font-family:serif Oriya;
+    font-weight: 800 ;
+    font-size: xx-large;
+    text-align: center;
+    padding: 10px;
+    color: black;
+}
+
+.contenido{
+    background-color:#95A1A1;
+    border-radius: 10px 20px 30px 40px;
+    margin-top: 90px;
+    left: 5.5%;
+    padding: 60px;
+    width: 1000px;
+    height: 100px; 
+    position:relative;
+    text-align: center;
+}
+.contenido__Icono{
+    width: 70px;
+    margin-top: -50px;
+}
+
+.contenedor{
+    text-align: center; 
+    padding: 20px; 
+    
+}
+.contenedor__Vid{
+    width:1000px; 
+    border-radius: 15px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    display:inline-block; 
+    margin: 5px ; 
+}
+
+.Contenido2{
+    background-color:#95A1A1;
+    border-radius: 10px 20px 30px 40px;
+    margin-top: 90px;
+    left: 5.5%;
+    padding: 60px;
+    width: 1000px;
+    height: 100px; 
+    position:relative;
+    text-align: center;
+}
+.Contenido2__Titulo--Ubicación{
+    margin-top: -14%;
+    text-transform:capitalize;
+    font-size: xX-large;
+    font-family:serif Oriya;
+}
+.Contenido2__Icono--Tamaño{
+    width: 70px;
+    margin-top: 25px;
+}
+
+.contenido3 {
+    background-color: #E0E0E0;
+    border-radius: 10px 10px 30px 40px;
+    margin-top: 60px;
+    left: 5.5%;
+    padding: 60px;
+    width: 1000px;
+    position: relative;
+    text-align: center;
+}
+
+.Contenido3__Titulo--Ubicación{
+    margin-top: 1%;
+    text-transform:capitalize;
+    font-size: xX-large;
+    font-family:serif Oriya;
+}
+.Contenido3__Formula1{
+    width: 70px;
+    margin-top: -30px;
+}
+.contenido3__link:hover{
+    color: red;  
+}
+.contenido3__texto {
+    margin-top: 20px;
+    text-align: justify; 
+}
+.Contenido4__Parrafo{
+    margin-top: -2%;
+    text-transform: uppercase;
+
+}
+.table {
+    border: 3px solid black; 
+    margin: 10px; 
+    width: 100%; 
+    border-collapse: collapse;
+}
+
+.table__header {
+    background-color: cadetblue; 
+    font-weight: bold;
+}
+.table__cell {
+    padding: 10px; 
+    border: 1px solid black ; 
+    text-align: justify;  
+}
+
